@@ -222,6 +222,41 @@ encodings:
     name: "Unknown"
     notes: "Code page that has not yet been identified."
 profiles:
+  BRIGHTEK-H-U05:
+    codePages:
+      0: "CP437"
+    colors:
+      0: "black"
+    features:
+      barcodeA: true
+      barcodeB: true
+      bitImageColumn: false
+      bitImageRaster: true
+      graphics: false
+      highDensity: true
+      invertedImageBits: true
+      paperFullCut: true
+      paperPartCut: true
+      pdf417Code: true
+      pulseBel: false
+      pulseStandard: true
+      qrCode: true
+      starCommands: false
+    fonts:
+      0:
+        columns: 42
+        name: "Font A"
+      1:
+        columns: 56
+        name: "Font B"
+    media:
+      width:
+        mm: 80
+        pixels: 576
+    name: "Brightek-H-U05"
+    notes: "Brightek ESC/POS profile. This profile allows the use of standard ESC/POS\
+      \ features, and code pages.\n"
+    vendor: "Brightek"
   NT-5890K:
     codePages:
       0: "CP437"

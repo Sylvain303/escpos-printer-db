@@ -1,0 +1,39 @@
+---
+BRIGHTEK-H-U05:
+  name: Brightek-H-U05
+  vendor: Brightek
+  notes: >
+      Brightek ESC/POS profile.
+      This profile allows the use of standard ESC/POS features,
+      and code pages.
+  features:
+    barcodeA: true
+    barcodeB: true
+    bitImageRaster: true
+    bitImageColumn: false
+    graphics: false
+    starCommands: false
+    qrCode: true
+    pdf417Code: true
+    highDensity: true
+    pulseStandard: true
+    pulseBel: false
+    paperFullCut: true
+    paperPartCut: true
+    invertedImageBits: true
+  colors:
+    0: black
+  fonts:
+    0:
+      name: Font A
+      columns: 42
+    1:
+      name: Font B
+      columns: 56
+  media:
+    width:
+      mm: 80
+      pixels: 576
+  codePages:
+    0: CP437
+...
